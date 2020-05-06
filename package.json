@@ -1,0 +1,10 @@
+{
+  "name": "CampingAhimsa",
+  "keywords": [],
+  "author": "Joris Rietveld",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "run": "browser-sync start --server 'app' --files 'app'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
