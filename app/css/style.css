@@ -1,65 +1,80 @@
-
 @font-face {
-  font-family: 'saman';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/saman.ttf");
+    font-family: 'saman';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/saman.ttf");
 }
 
-.font-Satisfy{
-  font-family: 'Satisfy', cursive;
+.font-Satisfy {
+    font-family: 'Satisfy', cursive;
 }
 
-.font-saman{
-  font-family: 'saman', fantasy;
+.font-saman {
+    font-family: 'saman', fantasy;
+    font-size: 1.5em;
 }
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+    color: #444;
 }
 
 p {
-  line-height: 2rem;
+    line-height: 2rem;
 }
 
 .sidenav-trigger {
-  color: #26a69a;
+    color: #26a69a;
 }
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+    min-height: 80vh;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
 }
-  .parallax-container .section {
+
+.parallax-container .section {
     width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
 }
 
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+.ahimsa-text-container{
+  min-height: 50vh;
+}
+
+.title-ahimsa-l1{
+    font-size: 2em;
+}
+
+.text-ahimsa-l1{
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
 }
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+    font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+    margin: 0;
 }
